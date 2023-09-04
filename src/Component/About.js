@@ -5,9 +5,9 @@ import '../index.css';
 function About() {
   return (
     <div>
-        <section class="bg-white md:h-screen dark:bg-gray-900">
-    <div class="grid  px-8  mx-auto lg:gap-8 xl:gap-0 lg:py-8 lg:grid-cols-12 transition duration-300 ease-in-out">
-    <div class="mt-10 md:mr-20 md:ml-36 lg:col-span-7 ">
+        <section class="bg-white lg:h-screen dark:bg-gray-900">
+    <div class="grid  lg:px-8  mx-auto lg:gap-8 xl:gap-0 lg:py-8 lg:grid-cols-12 transition duration-300 ease-in-out">
+    <div class="mt-10 lg:mr-20 lg:ml-36 px-10 lg:col-span-7 ">
     <div class="animate-fade-out flex items-center lg:mb-10">
   <div class=" lg:w-28 w-12 border-t mb-2 mr-2 border-gray-800"></div>
   <h4 class="max-w-2xl mb-2 text-xl text-gray-800 font-extrabold tracking-tight leading-none m dark:text-white tracking-wide leading-normal	lg:leading-loose
@@ -17,25 +17,25 @@ function About() {
 ">Our agency started back in 2002</h1>
             <img class="animate-fade-out lg:mt-5" src={aboutimg} alt='IntroImg' />
         </div> 
-        <div class="animate-slide-in-up mr-auto md:pt-44 md:mr-36 py-12 lg:col-span-5 ">
+        <div class="animate-slide-in-up ml-16 mx-auto lg:pt-44 lg:mr-36 py-12 lg:col-span-5 ">
             <p class="max-w-2xl my-8 font-light text-gray-800 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400 tracking-wide leading-8">Lorem ipsum dolor sit amet consectetur reprehe adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
             <p class="max-w-2xl my-8 font-light text-gray-800 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400 tracking-wide leading-8">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..</p>
             <section class="text-gray-600 body-font">
-  <div class="container px-5 py-24 mx-auto">
+  <div class="container px-5 py-2 mx-auto">
     <div class="flex flex-wrap -m-4 text-center">
-      <div class="md:p-10 p-4">
+      <div class="p-4">
         <h2 class="title-font font-medium sm:text-5xl text-3xl text-gray-900">12+</h2>
         <p class="leading-relaxed">YEARS EXPERIENCE</p>
       </div>
-      <div class="md:p-10 p-4">
+      <div class="p-4">
         <h2 class="title-font font-medium sm:text-5xl text-3xl text-gray-900">70K</h2>
         <p class="leading-relaxed">PROJECTS DONE</p>
       </div>
-      <div class="md:p-10 p-4">
+      <div class="p-4">
         <h2 class="title-font font-medium sm:text-5xl text-3xl text-gray-900">500+</h2>
         <p class="leading-relaxed">SATISFIED CLIENTS</p>
       </div>
-      <div class="md:p-10 p-4">
+      <div class="p-4">
         <h2 class="title-font font-medium sm:text-5xl text-3xl text-gray-900">48+</h2>
         <p class="leading-relaxed">TEAM MEMBERS</p>
       </div>
