@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Process() {
+const Process = () => {
   return (
     <div>
      

@@ -5,42 +5,43 @@ import '../index.css';
 function About() {
   return (
     <div>
-        <section class="bg-white lg:h-screen dark:bg-gray-900">
-    <div class="grid  lg:px-8  mx-auto lg:gap-8 xl:gap-0 lg:py-8 lg:grid-cols-12 transition duration-300 ease-in-out">
-    <div class="mt-10 lg:mr-20 lg:ml-36 px-10 lg:col-span-7 ">
+        <section class="space-grotesk bg-white py-20 md:h-screen  dark:bg-gray-900">
+    <div class="grid  lg:mx-20  lg:py-8 lg:grid-cols-12  transition duration-300 ease-in-out">
+    <div class="mt-10  lg:col-span-6 mx-5 ">
     <div class="animate-fade-out flex items-center lg:mb-10">
-  <div class=" lg:w-28 w-12 border-t mb-2 mr-2 border-gray-800"></div>
-  <h4 class="max-w-2xl mb-2 text-xl text-gray-800 font-extrabold tracking-tight leading-none m dark:text-white tracking-wide leading-normal	lg:leading-loose
+  <div class=" lg:w-24 w-16 border-t mb-1 mr-2 border-gray-800"></div>
+  <h4 class="  text-xl text-gray-800 font-extrabold tracking-tight leading-none m dark:text-white tracking-wide leading-normal	lg:leading-loose
 ">ABOUT US</h4>
 </div>
-<h1 class="animate-fade-out max-w-2xl mb-4 text-4xl text-gray-800 font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white tracking-wide leading-normal	lg:leading-loose
+<h1 class="animate-fade-out mb-4 text-4xl lg:text-7xl text-gray-800 font-extrabold tracking-tight  dark:text-white tracking-wide 	
 ">Our agency started back in 2002</h1>
-            <img class="animate-fade-out lg:mt-5" src={aboutimg} alt='IntroImg' />
+            <img class="animate-fade-out h-2/3 lg:block hidden" src={aboutimg} alt='IntroImg' />
         </div> 
-        <div class="animate-slide-in-up ml-16 mx-auto lg:pt-44 lg:mr-36 py-12 lg:col-span-5 ">
-            <p class="max-w-2xl my-8 font-light text-gray-800 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400 tracking-wide leading-8">Lorem ipsum dolor sit amet consectetur reprehe adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-            <p class="max-w-2xl my-8 font-light text-gray-800 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400 tracking-wide leading-8">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..</p>
+        <div class="animate-slide-in-up  lg:col-span-6 mx-5 ">
+            <p class="my-8 font-light text-gray-800 lg:mb-6 md:text-lg lg:text-xl dark:text-gray-400 tracking-wide leading-6">Lorem ipsum dolor sit amet consectetur reprehe adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+            <p class="mt-8 font-light text-gray-800 lg:mb-4 md:text-lg lg:text-xl dark:text-gray-400 tracking-wide leading-6">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..</p>
             <section class="text-gray-600 body-font">
-  <div class="container px-5 py-2 mx-auto">
-    <div class="flex flex-wrap -m-4 text-center">
+  <div class="container ">
+    <div class="flex flex-wrap md:flex-wrap  text-center  mb-5">
       <div class="p-4">
-        <h2 class="title-font font-medium sm:text-5xl text-3xl text-gray-900">12+</h2>
-        <p class="leading-relaxed">YEARS EXPERIENCE</p>
+        <h2 class="title-font font-medium  lg:text-7xl text-5xl text-gray-900">12<span class="text-violet-500">+</span></h2>
+        <p class="leading-relaxed text-lg">YEARS EXPERIENCE</p>
       </div>
       <div class="p-4">
-        <h2 class="title-font font-medium sm:text-5xl text-3xl text-gray-900">70K</h2>
-        <p class="leading-relaxed">PROJECTS DONE</p>
+        <h2 class="title-font font-medium lg:text-7xl text-5xl text-gray-900">70<span class="text-violet-500">K</span></h2>
+        <p class="leading-relaxed text-lg">PROJECTS DONE</p>
       </div>
       <div class="p-4">
-        <h2 class="title-font font-medium sm:text-5xl text-3xl text-gray-900">500+</h2>
-        <p class="leading-relaxed">SATISFIED CLIENTS</p>
+        <h2 class="title-font font-medium lg:text-7xl text-5xl text-gray-900">500<span class="text-violet-500">+</span></h2>
+        <p class="leading-relaxed text-lg">SATISFIED CLIENTS</p>
       </div>
       <div class="p-4">
-        <h2 class="title-font font-medium sm:text-5xl text-3xl text-gray-900">48+</h2>
-        <p class="leading-relaxed">TEAM MEMBERS</p>
+        <h2 class="title-font font-medium lg:text-7xl text-5xl text-gray-900">48<span class="text-violet-500">+</span></h2>
+        <p class="leading-relaxed text-lg">TEAM MEMBERS</p>
       </div>
     </div>
-  </div>
+              </div>
+              <img class="animate-fade-out md:h-2/3 md:w-3/6 lg:hidden block" src={aboutimg} alt='IntroImg' />
 </section>
             {/* <a href="#" class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
                 Get started 

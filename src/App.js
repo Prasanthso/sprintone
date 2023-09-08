@@ -5,7 +5,6 @@ import About from './Component/About';
 import Portfolio from './Component/Portfolio';
 
 
-
 import './index.css';
 
 function App() {
@@ -15,7 +14,7 @@ function App() {
       <Hero/>
       <Services/>
       <About/>
-      <Portfolio/>
+        <Portfolio />
     </div>
   );
 }

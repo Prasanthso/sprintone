@@ -3,20 +3,27 @@ import '../index.css';
 import portfolioimg1 from '../portfolioimg1.png';
 import portfolioimg2 from '../portfolioimg2.png';
 import portfolioimg3 from '../portfolioimg3.png';
+import topcir from '../topleftcir.png';
+import bottomcir from '../bottomrightcir.png';
 
 
-function Portfolio() {
+const Portfolio = () => {
   return (
     <div>
-       <section class="text-gray-600 bg-black body-font lg:px-32">
-       <div class="flex items-center lg:ml-16 px-10 mb-5 pt-10 lg:pt-96">
-  <div class="animate-fade-out lg:w-28 w-12 border-t mb-2 mr-2 border-white"></div>
-  <h4 class="max-w-2xl mb-2 text-xl text-white font-extrabold tracking-tight leading-none m dark:text-white tracking-wide leading-normal	lg:leading-loose
+      <section class="relative space-grotesk text-gray-600 py-20 bg-black body-font lg:px-32">
+        <img
+          src={topcir}
+          alt="Top Left Image"
+          className="animate-fade-out absolute top-0 -left-4 w-52 h-52 lg:block hidden"
+        />
+       <div class="flex items-center mx-5  mb-5 pt-10 lg:pt-96">
+  <div class="animate-fade-out lg:w-24 w-12 border-t mb-2 mr-4 border-white"></div>
+  <h4 class="max-w-2xl mb-2 text-xl text-white font-extrabold tracking-tight leading-none m dark:text-white  
 ">PORTFOLIO</h4>
 </div>
 {/* <h1 class="animate-fade-out lg:ml-16 md:ml-28 max-w-2xl mb-4 text-4xl text-white font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white tracking-wide leading-normal	lg:leading-loose
 ">Our recent clients</h1> */}
-<div class="py-8 flex flex-wrap md:flex-nowrap">
+<div class="pb-8 flex flex-wrap md:flex-nowrap">
         <div class="flex-grow">
         <h1 class="animate-fade-out lg:ml-16 ml-8 md:ml-8 max-w-2xl mb-4 text-4xl text-white font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white tracking-wide leading-normal	lg:leading-loose
 ">Our recent clients</h1>
@@ -34,8 +41,8 @@ function Portfolio() {
       <p class="mb-8 leading-relaxed">Lorem ipsum dolor sit amet consectetur reprehe adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua duis aute irure dolor in reprehenderit in voluptate velit esse cillum.Lorem ipsum dolor sit amet consectetur reprehe adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
       <div class="flex flex-row ">
       <h1 class="title-font sm:text-2xl text-xl mb-4 mt-2 font-medium text-white hover:text-indigo-500">WEB DESIGN</h1>
-      <button class="border  hover:bg-indigo-500 text-white font-bold py-2 ml-60 px-4 rounded-full">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-10 h-10" viewBox="0 0 305 305">
+      <button class="border  hover:bg-indigo-500 text-white font-bold  md:ml-60 sm:ml-48 ml-20 p-4 rounded-full">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-7 h-7" viewBox="0 0 305 305">
         <path d="M235.12 150.69l-71.06-71.06a7.5 7.5 0 0110.61-10.61l83.18 83.18a7.5 7.5 0 010 10.61l-83.18 83.18a7.5 7.5 0 01-10.61-10.61l71.06-71.06H7.5a7.5 7.5 0 010-15h227.62z"/>
       </svg>
       </button>
@@ -52,8 +59,8 @@ function Portfolio() {
       <p class="mb-8 leading-relaxed">Lorem ipsum dolor sit amet consectetur reprehe adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua duis aute irure dolor in reprehenderit in voluptate velit esse cillum.Lorem ipsum dolor sit amet consectetur reprehe adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
       <div class="flex flex-row ">
       <h1 class="title-font sm:text-2xl text-xl mb-4 mt-2 font-medium text-white hover:text-indigo-500">WEB DESIGN</h1>
-      <button class="border  hover:bg-indigo-500 text-white font-bold py-2 ml-60 px-4 rounded-full">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-10 h-10" viewBox="0 0 305 305">
+      <button class="border  hover:bg-indigo-500 text-white font-bold md:ml-60 sm:ml-48 ml-20 p-4 rounded-full">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-7 h-7" viewBox="0 0 305 305">
         <path d="M235.12 150.69l-71.06-71.06a7.5 7.5 0 0110.61-10.61l83.18 83.18a7.5 7.5 0 010 10.61l-83.18 83.18a7.5 7.5 0 01-10.61-10.61l71.06-71.06H7.5a7.5 7.5 0 010-15h227.62z"/>
       </svg>
       </button>
@@ -69,15 +76,19 @@ function Portfolio() {
       <p class="mb-8 leading-relaxed">Lorem ipsum dolor sit amet consectetur reprehe adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua duis aute irure dolor in reprehenderit in voluptate velit esse cillum.Lorem ipsum dolor sit amet consectetur reprehe adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
       <div class="flex flex-row ">
       <h1 class="title-font sm:text-2xl text-xl mb-4 mt-2 font-medium text-white hover:text-indigo-500">UI/UX DESIGN</h1>
-      <button class="border  hover:bg-indigo-500 text-white font-bold py-2 ml-60 px-4 rounded-full">
-      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-10 h-10" viewBox="0 0 305 305">
+      <button class="border  hover:bg-indigo-500 text-white font-bold md:ml-60 sm:ml-48 ml-20 p-4 rounded-full">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-7 h-7" viewBox="0 0 305 305">
         <path d="M235.12 150.69l-71.06-71.06a7.5 7.5 0 0110.61-10.61l83.18 83.18a7.5 7.5 0 010 10.61l-83.18 83.18a7.5 7.5 0 01-10.61-10.61l71.06-71.06H7.5a7.5 7.5 0 010-15h227.62z"/>
       </svg>
       </button>
       </div>
     </div>
   </div>
-  
+  <img
+          src={bottomcir}
+          alt="Top Left Image"
+          className="animate-fade-out absolute -right-12 bottom-0  w-52 h-52 lg:block hidden"
+        />  
 </section>
     </div>
   )
