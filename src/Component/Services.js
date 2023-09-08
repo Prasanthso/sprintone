@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
+import { useEffect } from 'react';
+
+import { Parallax } from 'react-scroll-parallax';
 import servicesimg1 from '../servicesimg1.png';
 import servicesimg2 from '../servicesimg2.png';
 import servicesimg3 from '../servicesimg3.png';
 import servicesimg4 from '../servicesimg4.png';
 
 
-
-function Services() {
+const Services = () => {
     const [section1Visible, setSection1Visible] = useState(false);
   const [section2Visible, setSection2Visible] = useState(false);
   const [section3Visible, setSection3Visible] = useState(false);
@@ -16,22 +18,22 @@ function Services() {
   const toggleSection2 = () => setSection2Visible(!section2Visible);
   const toggleSection3 = () => setSection3Visible(!section3Visible);
   const toggleSection4 = () => setSection4Visible(!section4Visible);
-  return (
-    
-            <section class="text-gray-600  body-font overflow-hidden">
-            <div class="container px-5 py-32 md:py-40 mx-auto">
+    return (
+     
+            <section class="space-grotesk text-gray-600 bg-gray-100  body-font overflow-hidden">
+            <div class="container px-5 py-28 md:py-40 mx-auto">
             <div class="lg:w-1/2 w-full mb-20 ">
             <div class="animate-fade-out flex items-center lg:mb-10">
-          <div class=" lg:w-28  w-12 border mb-4 mr-2 border-gray-600"></div>
+          <div class=" lg:w-24  w-12 border mb-4 mr-4 border-gray-600"></div>
           <h4 class="max-w-2xl mb-4 text-xl  text-gray-800 font-extrabold tracking-tight leading-none m dark:text-white tracking-wide leading-normal	lg:leading-loose
         ">OUR SERVICES</h4>
         </div>
-                <h1 class="animate-fade-out sm:text-6xl text-2xl font-medium title-font mb-2 text-gray-900">We can help you</h1>
+                <h1 class="animate-fade-out sm:text-6xl text-7xl font-medium title-font mb-2 text-gray-900">We can help you</h1>
               </div>
-              <div class="animate-slide-in-up -my-8 divide-y-2 divide-gray-100">
+              <div class="animate-slide-in-up -my-8 divide-y-2 divide-gray-400">
                 <div class="py-8 flex flex-wrap md:flex-nowrap">
                 <div class="flex-grow">
-                    <h2 class="text-3xl font-medium text-gray-900 title-font mb-2">01 Web design</h2>
+                    <h2 class="text-4xl font-medium text-gray-900 title-font mb-2"><span class="mr-8">01</span> Web design</h2>
                   </div>
                   <div class=" md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                   <button onClick={toggleSection1} class="border border-black text-black font-extrabold py-2 px-4 rounded-full">
@@ -54,7 +56,7 @@ function Services() {
         </section>}
         <div class="py-8 flex flex-wrap md:flex-nowrap">
                 <div class="flex-grow">
-                    <h2 class="text-3xl font-medium text-gray-900 title-font mb-2">02 Web development</h2>
+                    <h2 class="text-4xl font-medium text-gray-900 title-font mb-2"><span class="mr-8">02</span>Web development</h2>
                   </div>
                   <div class=" md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                   <button onClick={toggleSection2} class="border border-black text-black font-semibold py-2 px-4 rounded-full">
@@ -77,7 +79,7 @@ function Services() {
         </section>}
         <div class="py-8 flex flex-wrap md:flex-nowrap text-black">
                 <div class="flex-grow">
-                    <h2 class="text-3xl font-medium text-gray-900 title-font mb-2">03 UI/UX design</h2>
+                    <h2 class="text-4xl font-medium text-gray-900 title-font mb-2"><span class="mr-8">03</span> UI/UX design</h2>
                   </div>
                   <div class=" md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                   <button onClick={toggleSection3} class="border border-black text-black font-semibold py-2 px-4 rounded-full">
@@ -100,7 +102,7 @@ function Services() {
         </section>}
         <div class="py-8 flex flex-wrap md:flex-nowrap">
                 <div class="flex-grow">
-                    <h2 class="text-3xl font-medium text-gray-900 title-font mb-2">04 Brand design</h2>
+                    <h2 class="text-4xl font-medium text-gray-900 title-font mb-2"><span class="mr-8">04</span> Brand design</h2>
                   </div>
                   <div class=" md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                   <button onClick={toggleSection4} class="border border-black text-black font-extrabold py-2 px-4 rounded-full">
@@ -124,8 +126,8 @@ function Services() {
                 
               </div>
             </div>
-          </section>
-  )
+      </section>
+        )
 }
 
 

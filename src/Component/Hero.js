@@ -5,28 +5,21 @@ import '../index.css';
 const Hero = () => {
   return (
     <div>
-      <section class="bg-black h-screen px-5 dark:bg-gray-900">
-    <div class="grid  lg:px-8  mx-auto lg:gap-8 xl:gap-0 lg:py-8 lg:grid-cols-12 transition duration-300 ease-in-out">
-        <div class="animate-slide-in-up mr-auto lg:pt-44 md:ml-10 lg:ml-40 py-12 lg:col-span-6 ">
-        <div class="flex items-center lg:mb-10">
-  <div class=" lg:w-28 w-12 border-t mb-4 mr-2 border-gray-400"></div>
-  <h4 class="max-w-2xl mb-4 text-xl text-white font-extrabold tracking-tight leading-none m dark:text-white tracking-wide leading-normal	lg:leading-loose
+      <section class="space-grotesk bg-black h-screen px-5 dark:bg-gray-900">
+    <div class="grid  lg:px-8  mx-auto  xl:gap-0 lg:py-8 lg:grid-cols-12 transition duration-300 ease-in-out">
+        <div class="animate-slide-in-up mr-auto lg:pt-36 pt-12 md:ml-10 lg:ml-20  lg:col-span-8 ">
+        <div class="flex items-center lg:mb-2">
+  <div class=" lg:w-24 w-8 border-t mb-8 mr-4 border-gray-400"></div>
+  <h4 class="space-grotesk mb-7 text-lg text-white font-extrabold tracking-tight leading-none m dark:text-white tracking-wide
 ">WE ARE WEBSTUDIO</h4>
 </div>
 
-            <h1 class="max-w-2xl mb-4 text-4xl text-white font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white tracking-wide leading-normal	lg:leading-loose">We’re a web design agency from Los Angeles, CA</h1>
-            <p class="max-w-2xl my-8 font-light text-white lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400 tracking-wide leading-8">Lorem ipsum dolor sit amet consectetur reprehe adipiscing elit, sed do eiusmod tempor aliqua incididunt ut labore et dolore magna.</p>
-            {/* <a href="#" class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
-                Get started 
-                <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-            </a>
-            <a href="#" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
-                Speak to Sales
-            </a>  */}
+            <h1 class="mb-4 lg:text-7xl md:text-6xl sm:text-4xl text-4xl lg:w-11/12 md:w-5/6 sm:w-2/4 text-white font-extrabold tracking-tight leading-none  dark:text-white tracking-wide relative  z-20 lg:leading-tight" >We’re a web design agency from Los Angeles, CA</h1>
+            <p class="space-grotesk my-8 lg:w-2/4  md:w-3/4 text-white lg:mb-8 md:text-lg lg:text-lg dark:text-gray-400 tracking-wide">Lorem ipsum dolor sit amet consectetur reprehe adipiscing elit, sed do eiusmod tempor aliqua incididunt ut labore et dolore magna.</p>
         </div>
-        <div class="lg:mr-20 lg:col-span-6 lg:flex">
-            <img class="animate-fade-out lg:h-full md:ml-24 md:h-3/4 lg:mt-24" src={hero} alt='IntroImg' />
-        </div>                
+        <div class=" lg:absolute  lg:right-28  sm:flex">
+            <img class="animate-fade-out sm:mx-auto sm:h-5/6 sm:w-3/4 sm:mx-auto sm:mt-5 md:h-3/5 md:w-4/5 md:ml-10 lg:h-4/4 md:w-11/12 lg:mt-20" src={hero} alt='IntroImg' />
+        </div>           
     </div>
 </section>
     </div>
