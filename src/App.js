@@ -9,14 +9,14 @@ import './index.css';
 
 function App() {
   return (
-    <div className="App">
+          <div className="App">
         <Header/>
       <Hero/>
       <Services/>
       <About/>
-        <Portfolio />
-    </div>
-  );
+          <Portfolio />
+      </div>
+        );
 }
 
 export default App;

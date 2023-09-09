@@ -1,11 +1,17 @@
-import React from 'react'
 import aboutimg from '../aboutimg.jpg';
 import '../index.css';
+import React, { useState } from 'react';
+
 
 function About() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
   return (
     <div>
-        <section class="space-grotesk bg-white py-20 md:h-screen  dark:bg-gray-900">
+        <section id="about" class="space-grotesk bg-white py-20 md:h-screen  dark:bg-gray-900">
     <div class="grid  lg:mx-20  lg:py-8 lg:grid-cols-12  transition duration-300 ease-in-out">
     <div class="mt-10  lg:col-span-6 mx-5 ">
     <div class="animate-fade-out flex items-center lg:mb-10">
@@ -15,7 +21,7 @@ function About() {
 </div>
 <h1 class="animate-fade-out mb-4 text-4xl lg:text-7xl text-gray-800 font-extrabold tracking-tight  dark:text-white tracking-wide 	
 ">Our agency started back in 2002</h1>
-            <img class="animate-fade-out h-2/3 lg:block hidden" src={aboutimg} alt='IntroImg' />
+            <img class="animate-fade-out h-3/3 z-40 w-2/5 absolute lg:block hidden" src={aboutimg} alt='IntroImg' />
         </div> 
         <div class="animate-slide-in-up  lg:col-span-6 mx-5 ">
             <p class="my-8 font-light text-gray-800 lg:mb-6 md:text-lg lg:text-xl dark:text-gray-400 tracking-wide leading-6">Lorem ipsum dolor sit amet consectetur reprehe adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
@@ -23,19 +29,19 @@ function About() {
             <section class="text-gray-600 body-font">
   <div class="container ">
     <div class="flex flex-wrap md:flex-wrap  text-center  mb-5">
-      <div class="p-4">
+      <div class="p-6">
         <h2 class="title-font font-medium  lg:text-7xl text-5xl text-gray-900">12<span class="text-violet-500">+</span></h2>
         <p class="leading-relaxed text-lg">YEARS EXPERIENCE</p>
       </div>
-      <div class="p-4">
+      <div class="p-6">
         <h2 class="title-font font-medium lg:text-7xl text-5xl text-gray-900">70<span class="text-violet-500">K</span></h2>
         <p class="leading-relaxed text-lg">PROJECTS DONE</p>
       </div>
-      <div class="p-4">
+      <div class="p-6">
         <h2 class="title-font font-medium lg:text-7xl text-5xl text-gray-900">500<span class="text-violet-500">+</span></h2>
         <p class="leading-relaxed text-lg">SATISFIED CLIENTS</p>
       </div>
-      <div class="p-4">
+      <div class="p-6">
         <h2 class="title-font font-medium lg:text-7xl text-5xl text-gray-900">48<span class="text-violet-500">+</span></h2>
         <p class="leading-relaxed text-lg">TEAM MEMBERS</p>
       </div>

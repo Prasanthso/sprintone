@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
 import logo from '../Sprintlogo.png';
+import Hero from './Hero';
+import Services from './Services';
+import About from './About';
+import Portfolio from './Portfolio';
 
 
 const Header = () => {
@@ -10,7 +14,7 @@ const Header = () => {
   };
   
   return (
-    <div>
+        <div>
     <header>
         <nav className="space-grotesk bg-black border-gray-50 dark:bg-gray-900 z-50">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
@@ -58,9 +62,18 @@ const Header = () => {
                 Home
               </a>
                 </li>
+                  <li>
+              <a
+                href="#services"
+                className="space-grotesk block hover:text-indigo-500 py-2 pl-3 pr-4 text-white text-lg  rounded md:bg-transparent md:p-0 dark:text-white md:dark:text-blue-500"
+                aria-current="page"
+              >
+                Services
+              </a>
+                </li>
                 <li>
               <a
-                href="#"
+                href="#about"
                 className="space-grotesk block hover:text-indigo-500 py-2 pl-3 pr-4 text-white text-lg  rounded md:bg-transparent md:p-0 dark:text-white md:dark:text-blue-500"
                 aria-current="page"
               >
@@ -69,20 +82,11 @@ const Header = () => {
                 </li>
                 <li>
               <a
-                href="#"
+                href="#portfolio"
                 className="space-grotesk block hover:text-indigo-500 py-2 pl-3 pr-4 text-white text-lg  rounded md:bg-transparent md:p-0 dark:text-white md:dark:text-blue-500"
                 aria-current="page"
               >
-                Blog
-              </a>
-                </li>
-                <li>
-              <a
-                href="#"
-                className="space-grotesk block hover:text-indigo-500 py-2 pl-3 pr-4 text-white text-lg  rounded md:bg-transparent md:p-0 dark:text-white md:dark:text-blue-500"
-                aria-current="page"
-              >
-                Resurces
+                Portfolio
               </a>
                 </li>
                 <li>
@@ -108,8 +112,8 @@ const Header = () => {
       </div>
     </nav>
     </header>
-    </div>
-  )
+      </div>
+        )
 }
 
 export default Header

@@ -20,7 +20,7 @@ const Services = () => {
   const toggleSection4 = () => setSection4Visible(!section4Visible);
     return (
      
-            <section class="space-grotesk text-gray-600 bg-gray-100  body-font overflow-hidden">
+            <section id="services" class="space-grotesk text-gray-600 bg-gray-100  body-font overflow-hidden">
             <div class="container px-5 py-32 md:py-40 mx-auto">
             <div class="lg:w-1/2 w-full mb-20 ">
             <div class="animate-fade-out flex items-center lg:mb-10">

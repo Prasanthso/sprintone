@@ -10,11 +10,11 @@ import bottomcir from '../bottomrightcir.png';
 const Portfolio = () => {
   return (
     <div>
-      <section class="relative space-grotesk text-gray-600 py-20 bg-black body-font lg:px-32">
+      <section id="portfolio" class="relative space-grotesk text-gray-600 py-20 bg-black body-font lg:px-32">
         <img
           src={topcir}
           alt="Top Left Image"
-          className="animate-fade-out absolute top-0 -left-4 w-52 h-52 lg:block hidden"
+          className="animate-fade-out absolute top-20 -left-4 w-52 h-52 lg:block hidden"
         />
        <div class="flex items-center mx-5  mb-5 pt-10 lg:pt-96">
   <div class="animate-fade-out lg:w-24 w-12 border-t mb-2 mr-4 border-white"></div>

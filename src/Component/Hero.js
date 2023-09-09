@@ -9,7 +9,7 @@ import '../index.css';
 const Hero = () => {
   return (
     <div>
-      <section class="relative space-grotesk bg-black h-screen px-5 dark:bg-gray-900">
+      <section id="#" class="relative space-grotesk bg-black h-screen px-5 dark:bg-gray-900">
         <img
           src={topcir}
           alt="Top Left Image"
