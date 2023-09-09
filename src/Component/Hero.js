@@ -13,7 +13,7 @@ const Hero = () => {
         <img
           src={topcir}
           alt="Top Left Image"
-          className="animate-fade-out absolute top-0 -left-4 w-48 h-48 lg:block hidden"
+          className="animate-fade-out absolute top-0 -left-3 w-52 h-48 lg:block hidden"
         />
         <div class="grid  lg:px-8  mx-auto  xl:gap-0  lg:grid-cols-12 transition duration-300 ease-in-out">
           <div class="animate-slide-in-up mr-auto lg:pt-36 pt-12 md:ml-10 lg:ml-20  lg:col-span-8 ">
@@ -27,12 +27,12 @@ const Hero = () => {
             <p class="space-grotesk my-8 lg:w-2/4  md:w-3/4 text-white lg:mb-8 md:text-lg lg:text-lg dark:text-gray-400 tracking-wide">Lorem ipsum dolor sit amet consectetur reprehe adipiscing elit, sed do eiusmod tempor aliqua incididunt ut labore et dolore magna.</p>
         </div>
         <div class=" lg:absolute  lg:right-28 lg:col-span-6 sm:flex">
-            <img class="animate-fade-out sm:mx-auto sm:h-5/6 sm:w-3/4 sm:mx-auto sm:mt-5 md:h-3/5 md:w-4/5 md:ml-10 lg:h-4/4 lg:w-11/12 lg:mt-20" src={hero} alt='IntroImg' />
+            <img class="animate-fade-out sm:mx-auto sm:h-5/6 z-10 sm:w-3/4 sm:mx-auto sm:mt-5 md:h-3/5 md:w-4/5 md:ml-10 lg:h-4/4 lg:w-11/12 lg:mt-20" src={hero} alt='IntroImg' />
           </div>   
         <img
           src={bottomcir}
           alt="Top Left Image"
-          className="animate-fade-out absolute -right-12 bottom-0  w-48 h-48 lg:block hidden"
+          className="animate-fade-out absolute -right-4 bottom-0  w-48 h-48 lg:block hidden"
         />  
     </div>
 </section>

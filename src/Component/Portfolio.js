@@ -36,52 +36,68 @@ const Portfolio = () => {
     <div class="lg:max-w-lg lg:w-full md:w-full w-5/6 mb-10 md:mb-0">
       <img class="object-cover object-center rounded" alt="hero" src={portfolioimg1}/>
     </div>
-    <div class="lg:flex-grow lg:w-1/2 lg:pl-24 md:pl-5 md:mt-10 flex flex-col md:items-start md:text-left items-center text-center">
-      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white hover:text-indigo-500">Web design for Blockchain X</h1>
+          <div class="lg:flex-grow lg:w-1/2 lg:pl-24 md:pl-5 md:mt-10 flex flex-col md:items-start md:text-left items-center text-center">
+            <a
+                href="https://www.mdorthosystems.com/"
+                aria-current="page"
+              >
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white hover:text-violet-500">MD Ortho</h1>
       <p class="mb-8 leading-relaxed">Lorem ipsum dolor sit amet consectetur reprehe adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua duis aute irure dolor in reprehenderit in voluptate velit esse cillum.Lorem ipsum dolor sit amet consectetur reprehe adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
       <div class="flex flex-row ">
-      <h1 class="title-font sm:text-2xl text-xl mb-4 mt-2 font-medium text-white hover:text-indigo-500">WEB DESIGN</h1>
-      <button class="border  hover:bg-indigo-500 text-white font-bold  md:ml-60 sm:ml-48 ml-20 p-4 rounded-full">
+      <h1 class="title-font sm:text-2xl text-xl mb-4 mt-2 font-medium text-white hover:text-violet-500">WEB DESIGN</h1>
+      <button class="border hover:border-0  hover:bg-violet-500 text-white font-bold  md:ml-60 sm:ml-48 ml-20 p-4 rounded-full">
       <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-7 h-7" viewBox="0 0 305 305">
         <path d="M235.12 150.69l-71.06-71.06a7.5 7.5 0 0110.61-10.61l83.18 83.18a7.5 7.5 0 010 10.61l-83.18 83.18a7.5 7.5 0 01-10.61-10.61l71.06-71.06H7.5a7.5 7.5 0 010-15h227.62z"/>
       </svg>
       </button>
-      </div>
+              </div>
+              </a>
     </div>
-  </div>
-  <div class="animate-slide-in-up container mx-auto flex px-5 py-10 md:py-24 lg:flex-row flex-col items-center">
+        </div>
+    
+        <div class="animate-slide-in-up container mx-auto flex px-5 py-10 md:py-24 lg:flex-row flex-col items-center">
     <div class="lg:max-w-lg lg:w-full md:w-full  w-5/6 mb-10 md:mb-0">
       <img class="object-cover object-center rounded" alt="hero" src={portfolioimg2}/>
     </div>
     <div class="lg:flex-grow lg:w-1/2  lg:px-24 md:pl-5 md:mt-10 flex flex-col md:items-start md:text-left items-center text-center">
-      
-      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white hover:text-indigo-500">Web design and dev for Photographer X</h1>
+       <a
+                href="https://charismaq.com/"
+                aria-current="page"
+              >
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white hover:text-violet-500">CharismaQ</h1>
       <p class="mb-8 leading-relaxed">Lorem ipsum dolor sit amet consectetur reprehe adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua duis aute irure dolor in reprehenderit in voluptate velit esse cillum.Lorem ipsum dolor sit amet consectetur reprehe adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
       <div class="flex flex-row ">
-      <h1 class="title-font sm:text-2xl text-xl mb-4 mt-2 font-medium text-white hover:text-indigo-500">WEB DESIGN</h1>
-      <button class="border  hover:bg-indigo-500 text-white font-bold md:ml-60 sm:ml-48 ml-20 p-4 rounded-full">
+      <h1 class="title-font sm:text-2xl text-xl mb-4 mt-2 font-medium text-white hover:text-violet-500">WEB DESIGN</h1>
+      <button class="border hover:border-0 hover:bg-violet-500 text-white font-bold md:ml-60 sm:ml-48 ml-20 p-4 rounded-full">
       <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-7 h-7" viewBox="0 0 305 305">
         <path d="M235.12 150.69l-71.06-71.06a7.5 7.5 0 0110.61-10.61l83.18 83.18a7.5 7.5 0 010 10.61l-83.18 83.18a7.5 7.5 0 01-10.61-10.61l71.06-71.06H7.5a7.5 7.5 0 010-15h227.62z"/>
       </svg>
-      </button>
-      </div>
-    </div>
-  </div>
+                </button>
+          
+              </div>
+              </a>
+            </div>
+        </div>
   <div class="animate-slide-in-up container mx-auto flex px-5 py-10 md:py-24 lg:flex-row flex-col items-center">
     <div class="lg:max-w-lg lg:w-full md:w-full lg:w-1/2 w-5/6 mb-10 md:mb-0">
       <img class="object-cover object-center rounded" alt="hero" src={portfolioimg3}/>
     </div>
-    <div class="lg:flex-grow lg:w-1/2 lg:pl-24 md:pl-5 md:mt-10 flex flex-col md:items-start md:text-left items-center text-center">
-      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white hover:text-indigo-500">UI/UX and web design for Bnkly X</h1>
+          <div class="lg:flex-grow lg:w-1/2 lg:pl-24 md:pl-5 md:mt-10 flex flex-col md:items-start md:text-left items-center text-center">
+             <a
+                href="https://evergreenairconditioning.com/"
+                aria-current="page"
+              >
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white hover:text-violet-500">Evergreen</h1>
       <p class="mb-8 leading-relaxed">Lorem ipsum dolor sit amet consectetur reprehe adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua duis aute irure dolor in reprehenderit in voluptate velit esse cillum.Lorem ipsum dolor sit amet consectetur reprehe adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
       <div class="flex flex-row ">
-      <h1 class="title-font sm:text-2xl text-xl mb-4 mt-2 font-medium text-white hover:text-indigo-500">UI/UX DESIGN</h1>
-      <button class="border  hover:bg-indigo-500 text-white font-bold md:ml-60 sm:ml-48 ml-20 p-4 rounded-full">
+      <h1 class="title-font sm:text-2xl text-xl mb-4 mt-2 font-medium text-white hover:text-violet-500">UI/UX DESIGN</h1>
+      <button class="border hover:border-0 hover:bg-violet-500 text-white font-bold md:ml-60 sm:ml-48 ml-20 p-4 rounded-full">
       <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-7 h-7" viewBox="0 0 305 305">
         <path d="M235.12 150.69l-71.06-71.06a7.5 7.5 0 0110.61-10.61l83.18 83.18a7.5 7.5 0 010 10.61l-83.18 83.18a7.5 7.5 0 01-10.61-10.61l71.06-71.06H7.5a7.5 7.5 0 010-15h227.62z"/>
       </svg>
       </button>
-      </div>
+              </div>
+              </a>
     </div>
   </div>
   <img
