@@ -21,14 +21,10 @@ const Portfolio = () => {
         <div class="flex items-center mx-5  mb-5 pt-10 lg:pt-96">
           <div class="animate-fade-out lg:w-24 w-12 border-t mb-2 mr-4 border-white"></div>
           <h4
-            class="max-w-2xl mb-2 text-xl text-white font-extrabold tracking-tight leading-none m dark:text-white  
-"
-          >
+            class="max-w-2xl mb-2 text-xl text-white font-extrabold tracking-tight leading-none m dark:text-white">
             PORTFOLIO
           </h4>
         </div>
-        {/* <h1 class="animate-fade-out lg:ml-16 md:ml-28 max-w-2xl mb-4 text-4xl text-white font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white tracking-wide leading-normal	lg:leading-loose
-">Our recent clients</h1> */}
         <div class="pb-8 flex flex-wrap md:flex-nowrap">
           <div class="flex-grow">
             <h1

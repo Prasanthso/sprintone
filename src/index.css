@@ -36,3 +36,18 @@
   .space-grotesk {
     font-family: 'Space Grotesk', sans-serif;
   }
+
+    .fadeInUp-container {
+      opacity: 0;
+      /* Initially hidden */
+      transform: translateY(20px);
+      /* Initially shifted down */
+      transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    }
+  
+    .fadeInUp-container.active {
+      opacity: 1;
+      /* Fade in */
+      transform: translateY(0);
+      /* Slide up */
+    }
