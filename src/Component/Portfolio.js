@@ -103,7 +103,7 @@ const Portfolio = () => {
   <img
           src={bottomcir}
           alt="Top Left Image"
-          className="animate-fade-out absolute -right-12 bottom-0  w-52 h-52 lg:block hidden"
+          className="animate-fade-out absolute right-0 bottom-0  w-40 h-40  lg:block hidden"
         />  
 </section>
     </div>

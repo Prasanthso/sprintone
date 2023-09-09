@@ -32,7 +32,7 @@ const Hero = () => {
         <img
           src={bottomcir}
           alt="Top Left Image"
-          className="animate-fade-out absolute -right-4 bottom-0  w-48 h-48 lg:block hidden"
+          className="animate-fade-out absolute right-0 bottom-0  w-40 h-40 lg:block hidden"
         />  
     </div>
 </section>
