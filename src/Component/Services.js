@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import { useEffect } from "react";
 
-import { Parallax } from "react-scroll-parallax";
 import servicesimg1 from "../servicesimg1.png";
 import servicesimg2 from "../servicesimg2.png";
 import servicesimg3 from "../servicesimg3.png";

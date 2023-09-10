@@ -5,6 +5,7 @@ import About from "./Component/About";
 import Portfolio from "./Component/Portfolio";
 import Loading from "./Component/Loading";
 import Process from "./Component/Process";
+import Testimonials from "./Component/Testimonials";
 
 
 import "./index.css";
@@ -19,6 +20,7 @@ function App() {
       <About />
       <Portfolio />
       <Process />
+      <Testimonials />
     </div>
   );
 }

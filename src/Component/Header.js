@@ -90,11 +90,20 @@ const Header = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="#process"
                     className="space-grotesk block hover:text-indigo-500 py-2 pl-3 pr-4 text-white text-lg  rounded md:bg-transparent md:p-0 dark:text-white md:dark:text-blue-500"
                     aria-current="page"
                   >
-                    Contact
+                    process
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#testmonials"
+                    className="space-grotesk block hover:text-indigo-500 py-2 pl-3 pr-4 text-white text-lg  rounded md:bg-transparent md:p-0 dark:text-white md:dark:text-blue-500"
+                    aria-current="page"
+                  >
+                    Testmonials
                   </a>
                 </li>
                 <li>

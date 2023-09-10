@@ -9,7 +9,7 @@ import portfolioimg4 from "../processimg4.png";
 const Process = () => {
   return (
     <div>
-      <section class="space-grotesk text-gray-600 body-font">
+      <section id="process"  class="space-grotesk text-gray-600 body-font">
         <div class="container px-5 py-24 mx-auto flex flex-wrap">
           <div class="mb-20">
             <div class="flex items-center mx-5  mb-10 pt-10 ">
@@ -22,7 +22,7 @@ const Process = () => {
               See how we works
             </h1>
           </div>
-          <div class="animate-slide-in-up flex flex-wrap -m-4">
+          <div class="animate-fade-out flex flex-wrap -m-4">
             <div class="p-4 lg:w-1/2 md:w-full ">
               <div class="flex border-2 border-black  p-8 sm:flex-row flex-col py-12 px-12">
                 <div class="flex-grow">
@@ -39,7 +39,7 @@ const Process = () => {
                 </div>
               </div>
             </div>
-            <div class="animate-slide-in-up p-4 lg:w-1/2 md:w-full ">
+            <div class="animate-fade-out p-4 lg:w-1/2 md:w-full ">
               <div class="flex border-2 border-black  p-8 sm:flex-row flex-col py-12 px-12">
                 <div class="flex-grow">
                   <h2 class="text-gray-900  mb-3 text-5xl font-bold">02</h2>
@@ -53,7 +53,7 @@ const Process = () => {
                 </div>
               </div>
             </div>
-            <div class="animate-slide-in-up p-4 lg:w-1/2 md:w-full ">
+            <div class="animate-fade-out p-4 lg:w-1/2 md:w-full ">
               <div class="flex border-2 border-black  p-8 sm:flex-row flex-col py-12 px-12">
                 <div class="flex-grow">
                   <h2 class="text-gray-900  mb-3 text-5xl font-bold">03</h2>
@@ -69,7 +69,7 @@ const Process = () => {
                 </div>
               </div>
             </div>
-            <div class="animate-slide-in-up p-4 lg:w-1/2 md:w-full ">
+            <div class="animate-fade-out p-4 lg:w-1/2 md:w-full ">
               <div class="flex border-2 border-black  p-8 sm:flex-row flex-col py-12 px-12">
                 <div class="flex-grow">
                   <h2 class="text-gray-900  mb-3 text-5xl font-bold">04</h2>
