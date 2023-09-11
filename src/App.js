@@ -6,6 +6,8 @@ import Portfolio from "./Component/Portfolio";
 import Loading from "./Component/Loading";
 import Process from "./Component/Process";
 import Testimonials from "./Component/Testimonials";
+import Blog from "./Component/Blog";
+
 
 
 import "./index.css";
@@ -21,6 +23,7 @@ function App() {
       <Portfolio />
       <Process />
       <Testimonials />
+      <Blog />
     </div>
   );
 }

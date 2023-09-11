@@ -56,8 +56,8 @@ const Testimonials = () => {
           </div>
           <div class="animate-fade-out grid mb-8 lg:mb-12 lg:grid-cols-1">
             <figure class="flex flex-col  p-8  bg-black border-b border-gray-200 md:p-12 lg:border-r dark:bg-gray-800 dark:border-gray-700">
-              <blockquote class="mb-8 text-5xl ml-4 font-bold dark:text-gray-400">
-                <p class="my-4 pr-40 text-white leading-snug">
+              <blockquote class="mb-8 text-3xl md:text-5xl ml-4 font-bold dark:text-gray-400">
+                <p class="my-4 md:pr-40 text-white leading-snug">
                   “{testimonial.text}”
                 </p>
               </blockquote>
@@ -73,7 +73,7 @@ const Testimonials = () => {
                     {testimonial.position}
                   </div>
                 </div>
-                <div class="flex ml-auto md:mt-4 mt-6">
+                <div class="flex md:ml-auto md:mt-4 mt-6">
                   <button
                     onClick={handlePrev}
                     class="border border-2 mr-4 hover:text-white hover:border-white text-gray-600 border-gray-600   p-4 rounded-full"
