@@ -7,6 +7,7 @@ import Loading from "./Component/Loading";
 import Process from "./Component/Process";
 import Testimonials from "./Component/Testimonials";
 import Blog from "./Component/Blog";
+import Footer from "./Component/Footer";
 
 
 
@@ -24,6 +25,7 @@ function App() {
       <Process />
       <Testimonials />
       <Blog />
+      <Footer />
     </div>
   );
 }

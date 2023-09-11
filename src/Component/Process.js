@@ -26,12 +26,12 @@ const Process = () => {
             <div class="p-4 lg:w-1/2 md:w-full ">
               <div class="flex border-2 border-black  p-4 md:p-8 sm:flex-row flex-col py-12 md:px-12">
                 <div class="flex-grow">
-                  <h2 class="text-gray-900  mb-3 text-5xl font-bold">01</h2>
+                  <h2 class="text-gray-900  mb-3 text-2xl md:text-5xl font-bold">01</h2>
                   <img class="h-36 w-36 my-16" alt="hero" src={portfolioimg1} />
-                  <h2 class="text-gray-900  mb-3 text-5xl font-bold">
+                  <h2 class="text-gray-900  mb-3 text-2xl md:text-5xl font-bold">
                     Concept
                   </h2>
-                  <p class="leading-relaxed text-lg">
+                  <p class="leading-relaxed text-base md:text-lg">
                     Lorem ipsum dolor sit amet, consectetur adipiscing sed do
                     eiusmod tempor incididunt ut labore et dolore magna aliqua
                     enim ad minim veniam, quis nostrud exercitati.
@@ -42,10 +42,10 @@ const Process = () => {
             <div class="animate-fade-out p-4 lg:w-1/2 md:w-full ">
               <div class="flex border-2 border-black  p-4 md:p-8 sm:flex-row flex-col py-12 md:px-12">
                 <div class="flex-grow">
-                  <h2 class="text-gray-900  mb-3 text-5xl font-bold">02</h2>
+                  <h2 class="text-gray-900  mb-3 text-2xl md:text-5xl font-bold">02</h2>
                   <img class="h-36 w-36 my-16" alt="hero" src={portfolioimg2} />
-                  <h2 class="text-gray-900  mb-3 text-5xl font-bold">Design</h2>
-                  <p class="leading-relaxed text-lg">
+                  <h2 class="text-gray-900  mb-3 text-2xl md:text-5xl font-bold">Design</h2>
+                  <p class="leading-relaxed text-base md:text-lg">
                     Lorem ipsum dolor sit amet, consectetur adipiscing sed do
                     eiusmod tempor incididunt ut labore et dolore magna aliqua
                     enim ad minim veniam, quis nostrud exercitati.
@@ -56,12 +56,14 @@ const Process = () => {
             <div class="animate-fade-out p-4 lg:w-1/2 md:w-full ">
               <div class="flex border-2 border-black  p-4 md:p-8 sm:flex-row flex-col py-12 md:px-12">
                 <div class="flex-grow">
-                  <h2 class="text-gray-900  mb-3 text-5xl font-bold">03</h2>
+                  <h2 class="text-gray-900  mb-3 text-2xl md:text-5xl font-bold">
+                    03
+                  </h2>
                   <img class="h-36 w-36 my-16" alt="hero" src={portfolioimg3} />
-                  <h2 class="text-gray-900  mb-3 text-5xl font-bold">
+                  <h2 class="text-gray-900  mb-3 text-2xl md:text-5xl font-bold">
                     Development
                   </h2>
-                  <p class="leading-relaxed text-lg">
+                  <p class="leading-relaxed text-base md:text-lg">
                     Lorem ipsum dolor sit amet, consectetur adipiscing sed do
                     eiusmod tempor incididunt ut labore et dolore magna aliqua
                     enim ad minim veniam, quis nostrud exercitati.
@@ -72,10 +74,10 @@ const Process = () => {
             <div class="animate-fade-out p-4 lg:w-1/2 md:w-full ">
               <div class="flex border-2 border-black  p-4 md:p-8 sm:flex-row flex-col py-12 md:px-12">
                 <div class="flex-grow">
-                  <h2 class="text-gray-900  mb-3 text-5xl font-bold">04</h2>
+                  <h2 class="text-gray-900  mb-3 text-2xl md:text-5xl font-bold">04</h2>
                   <img class="h-36 w-36 my-16" alt="hero" src={portfolioimg4} />
-                  <h2 class="text-gray-900  mb-3 text-5xl font-bold">Launch</h2>
-                  <p class="leading-relaxed text-lg">
+                  <h2 class="text-gray-900  mb-3 text-2xl md:text-5xl font-bold">Launch</h2>
+                  <p class="leading-relaxed text-base md:text-lg">
                     Lorem ipsum dolor sit amet, consectetur adipiscing sed do
                     eiusmod tempor incididunt ut labore et dolore magna aliqua
                     enim ad minim veniam, quis nostrud exercitati.

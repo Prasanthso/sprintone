@@ -38,7 +38,10 @@ const Testimonials = () => {
   const testimonial = testimonials[activeIndex];
   return (
     <div>
-      <section id="testmonials" class="space-grotesk bg-gray-100 dark:bg-gray-900">
+      <section
+        id="testmonials"
+        class="space-grotesk bg-gray-100 dark:bg-gray-900"
+      >
         <div class="py-8 px-4 mx-auto max-w-screen-xl  lg:py-16 lg:px-6">
           <div class="w-full mb-20 ">
             <div class="animate-fade-out flex items-center lg:mb-10">
@@ -56,8 +59,8 @@ const Testimonials = () => {
           </div>
           <div class="animate-fade-out grid mb-8 lg:mb-12 lg:grid-cols-1">
             <figure class="flex flex-col  p-8  bg-black border-b border-gray-200 md:p-12 lg:border-r dark:bg-gray-800 dark:border-gray-700">
-              <blockquote class="mb-8 text-3xl md:text-5xl ml-4 font-bold dark:text-gray-400">
-                <p class="my-4 md:pr-40 text-white leading-snug">
+              <blockquote class="mb-8 text-3xl md:text-5xl md:ml-4 font-bold dark:text-gray-400">
+                <p class="my-4 md:pr-40 text-white md:leading-snug leading-10 text-center">
                   “{testimonial.text}”
                 </p>
               </blockquote>
