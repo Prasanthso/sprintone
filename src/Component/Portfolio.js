@@ -15,7 +15,7 @@ const Portfolio = () => {
     <div>
       <section
         id="portfolio"
-        class="relative space-grotesk text-gray-600 py-20 bg-black body-font lg:px-32"
+        class="relative space-grotesk text-gray-600 bg-black body-font xl:px-28"
       >
         <img
           src={topcir}
@@ -32,7 +32,7 @@ const Portfolio = () => {
           alt="Top Left Image"
           className="animate-fade-out absolute h-32 left-0 bottom-0 lg:hidden block"
         />
-        <div class="flex items-center mx-5  mb-5 pt-10 lg:pt-96">
+        <div class="flex items-center mx-5  mb-5 pt-72 xl:pt-96">
           <div class="animate-fade-out lg:w-24 w-12 border-t mb-2 mr-4 border-white"></div>
           <h4 class="max-w-2xl mb-2 text-xl text-white font-extrabold tracking-tight leading-none m dark:text-white">
             PORTFOLIO
@@ -53,7 +53,7 @@ const Portfolio = () => {
             </button>
           </div>
         </div>
-        <div class="animate-slide-in-up container mx-auto flex px-5 py-10 md:py-24 lg:flex-row flex-col items-center ">
+        <div class="animate-slide-in-up container mx-auto flex px-5 lg:py-16  md:py-24 lg:flex-row flex-col items-center ">
           <div class="lg:max-w-lg lg:w-full md:w-full w-5/6 mb-10 md:mb-0">
             <img
               class="object-cover object-center hover:scale-110 rounded"
@@ -61,7 +61,7 @@ const Portfolio = () => {
               src={portfolioimg1}
             />
           </div>
-          <div class="lg:flex-grow lg:w-1/2 lg:pl-24 md:pl-5 md:mt-10 flex flex-col md:items-start md:text-left items-center text-center">
+          <div class="lg:flex-grow lg:w-1/2 xl:pl-24 md:pl-5 md:mt-10 flex flex-col md:items-start md:text-left items-center text-center">
             <a href="https://www.mdorthosystems.com/" aria-current="page">
               <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white hover:text-violet-500">
                 MD Ortho
@@ -72,11 +72,28 @@ const Portfolio = () => {
                 aliqua duis aute irure dolor in reprehenderit in voluptate velit
                 esse cillum.
               </p>
-              <div class="container  md:px-5  px-4 py-10 mx-auto flex flex-row">
+              {/* <div class="container  md:px-5  py-10  flex flex-row">
                 <h1 class="title-font md:text-2xl text-xl mb-4 mt-4 font-medium text-white hover:text-violet-500">
                   WEB DESIGN
                 </h1>
                 <div class="flex md:ml-auto">
+                  <button class="border hover:border-0  hover:bg-violet-500 text-white font-bold  md:ml-60 sm:ml-48 ml-28 p-4 rounded-full">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      class="w-7 h-7"
+                      viewBox="0 0 305 305"
+                    >
+                      <path d="M235.12 150.69l-71.06-71.06a7.5 7.5 0 0110.61-10.61l83.18 83.18a7.5 7.5 0 010 10.61l-83.18 83.18a7.5 7.5 0 01-10.61-10.61l71.06-71.06H7.5a7.5 7.5 0 010-15h227.62z" />
+                    </svg>
+                  </button>
+                </div>
+              </div> */}
+              <div class="container py-10 mx-auto flex flex-wrap">
+                <h1 class="title-font md:text-2xl text-xl mb-4 mt-4 font-medium text-white hover:text-violet-500">
+                  WEB DESIGN
+                </h1>
+                <div class="flex ml-auto ">
                   <button class="border hover:border-0  hover:bg-violet-500 text-white font-bold  md:ml-60 sm:ml-48 ml-28 p-4 rounded-full">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -93,7 +110,7 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div class="animate-slide-in-up container mx-auto flex px-5 py-10 md:py-24 lg:flex-row flex-col items-center">
+        <div class="animate-slide-in-up container mx-auto flex px-5 py-10 md:py-24 lg:py-16 lg:flex-row flex-col items-center">
           <div class="lg:max-w-lg lg:w-full md:w-full lg:w-1/2 w-5/6 mb-10 md:mb-0">
             <img
               class="object-cover object-center hover:scale-110 rounded"
@@ -101,7 +118,7 @@ const Portfolio = () => {
               src={portfolioimg2}
             />
           </div>
-          <div class="lg:flex-grow lg:w-1/2 lg:pl-24 md:pl-5 md:mt-10 flex flex-col md:items-start md:text-left items-center text-center">
+          <div class="lg:flex-grow lg:w-1/2 xl:pl-20 md:pl-5 md:mt-10 flex flex-col md:items-start md:text-left items-center text-center">
             <a href="https://charismaq.com/" aria-current="page">
               <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white hover:text-violet-500">
                 CharismaQ
@@ -112,7 +129,7 @@ const Portfolio = () => {
                 aliqua duis aute irure dolor in reprehenderit in voluptate velit
                 esse cillum.
               </p>
-              <div class="container  md:px-5  px-4 py-10 mx-auto flex flex-row">
+              {/* <div class="container  md:px-5  px-4 py-10 mx-auto flex flex-row">
                 <h1 class="title-font md:text-2xl text-xl mb-4 mt-4 font-medium text-white hover:text-violet-500">
                   WEB DESIGN
                 </h1>
@@ -128,11 +145,28 @@ const Portfolio = () => {
                     </svg>
                   </button>
                 </div>
+              </div> */}
+              <div class="container py-10 mx-auto flex flex-wrap">
+                <h1 class="title-font md:text-2xl text-xl mb-4 mt-4 font-medium text-white hover:text-violet-500">
+                  WEB DESIGN
+                </h1>
+                <div class="flex ml-auto ">
+                  <button class="border hover:border-0  hover:bg-violet-500 text-white font-bold  md:ml-60 sm:ml-48 ml-28 p-4 rounded-full">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      class="w-7 h-7"
+                      viewBox="0 0 305 305"
+                    >
+                      <path d="M235.12 150.69l-71.06-71.06a7.5 7.5 0 0110.61-10.61l83.18 83.18a7.5 7.5 0 010 10.61l-83.18 83.18a7.5 7.5 0 01-10.61-10.61l71.06-71.06H7.5a7.5 7.5 0 010-15h227.62z" />
+                    </svg>
+                  </button>
+                </div>
               </div>
             </a>
           </div>
         </div>
-        <div class="animate-slide-in-up container mx-auto flex px-5 py-10 md:py-24 lg:flex-row flex-col items-center">
+        <div class="animate-slide-in-up container mx-auto flex px-5 py-10 md:py-24 xl:py-16 lg:flex-row flex-col items-center">
           <div class="lg:max-w-lg lg:w-full md:w-full lg:w-1/2 w-5/6 mb-10 md:mb-0">
             <img
               class="object-cover object-center hover:scale-110 rounded"
@@ -140,7 +174,7 @@ const Portfolio = () => {
               src={portfolioimg3}
             />
           </div>
-          <div class="lg:flex-grow lg:w-1/2 lg:pl-24 md:pl-5 md:mt-10 flex flex-col md:items-start md:text-left items-center text-center">
+          <div class="lg:flex-grow lg:w-1/2 xl:pl-24 md:pl-5 md:mt-10 flex flex-col md:items-start md:text-left ">
             <a href="https://evergreenairconditioning.com/" aria-current="page">
               <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white hover:text-violet-500">
                 Evergreen
@@ -151,11 +185,28 @@ const Portfolio = () => {
                 aliqua duis aute irure dolor in reprehenderit in voluptate velit
                 esse cillum.
               </p>
-              <div class="container md:px-5  px-4 py-10 mx-auto flex flex-row">
+              {/* <div class="container md:px-5  px-4 py-10 mx-auto flex flex-row">
                 <h1 class="title-font md:text-2xl text-xl mb-4 mt-4 font-medium text-white hover:text-violet-500">
                   UI/UX DESIGN
                 </h1>
                 <div class="flex flex-row ml-auto">
+                  <button class="border hover:border-0  hover:bg-violet-500 text-white font-bold  md:ml-60 sm:ml-48 ml-28 p-4 rounded-full">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      class="w-7 h-7"
+                      viewBox="0 0 305 305"
+                    >
+                      <path d="M235.12 150.69l-71.06-71.06a7.5 7.5 0 0110.61-10.61l83.18 83.18a7.5 7.5 0 010 10.61l-83.18 83.18a7.5 7.5 0 01-10.61-10.61l71.06-71.06H7.5a7.5 7.5 0 010-15h227.62z" />
+                    </svg>
+                  </button>
+                </div>
+              </div> */}
+              <div class="container py-10 mx-auto flex flex-wrap">
+                <h1 class="title-font md:text-2xl text-xl mb-4 mt-4 font-medium text-white hover:text-violet-500">
+                  UI/UX DESIGN
+                </h1>
+                <div class="flex ml-auto ">
                   <button class="border hover:border-0  hover:bg-violet-500 text-white font-bold  md:ml-60 sm:ml-48 ml-28 p-4 rounded-full">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
