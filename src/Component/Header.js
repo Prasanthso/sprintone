@@ -15,7 +15,7 @@ const Header = () => {
   return (
     <div>
       <header>
-        <nav className="space-grotesk bg-black py-4 border-gray-50 dark:bg-gray-900">
+        <nav className="space-grotesk bg-black py-4 px-2 border-gray-50 dark:bg-gray-900">
           <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
             <a href="#" className="flex items-center">
               <img src={logo} className="h-12 w-60 my-6" alt="Flowbite Logo" />
