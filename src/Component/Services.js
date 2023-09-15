@@ -35,13 +35,12 @@ const Services = () => {
             We can help you
           </h1>
         </div>
-        <div class="animate-slide-in-up -my-8 divide-y-2 divide-gray-400">
-          <div>
+        <div class=" -my-8 divide-y-2 divide-gray-400">
+          <div data-aos="fade-up">
             <div class="py-10 flex flex-wrap md:flex-nowrap hover:ml-2">
               <div class="flex-grow">
                 <h2 class="md:text-4xl text-2xl font-bold text-gray-900 title-font mb-2">
-                  <span class="mr-6">01</span> Web
-                  design
+                  <span class="mr-6">01</span> Web design
                 </h2>
               </div>
               <div class=" md:mb-0 mb-6 flex-shrink-0">
@@ -88,7 +87,7 @@ const Services = () => {
               </section>
             )}
           </div>
-          <div>
+          <div data-aos="fade-up">
             <div class="py-10 flex flex-wrap md:flex-nowrap hover:ml-2">
               <div class="flex-grow">
                 <h2 class="md:text-4xl text-2xl font-medium text-gray-900 title-font mb-2">
@@ -139,7 +138,7 @@ const Services = () => {
               </section>
             )}
           </div>
-          <div>
+          <div data-aos="fade-up">
             <div class="py-10 flex flex-wrap md:flex-nowrap text-black hover:ml-2">
               <div class="flex-grow">
                 <h2 class="md:text-4xl text-2xl font-medium text-gray-900 title-font mb-2">
@@ -190,7 +189,7 @@ const Services = () => {
               </section>
             )}
           </div>
-          <div>
+          <div data-aos="fade-up">
             <div class="py-10 flex flex-wrap md:flex-nowrap hover:ml-2">
               <div class="flex-grow">
                 <h2 class="lg:text-4xl text-2xl font-medium text-gray-900 title-font mb-2">

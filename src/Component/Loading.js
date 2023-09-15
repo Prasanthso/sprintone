@@ -10,11 +10,12 @@ const Loading = () => {
     }, 1000);
 
     // Clear the timeout when the component unmounts
+    return () => clearTimeout(delay);
   }, []);
 
   return (
     <div
-      className={`fixed top-0 left-0 h-1 bg-indigo-500 transition-all duration-1000 ${
+      className={`fixed top-0 left-0 h-1 bg-indigo-500  duration-1000 ${
         loading ? "w-full" : "w-0"
       }`}
     ></div>

@@ -12,10 +12,16 @@ const Footer = () => {
         <div class="relative mx-auto max-w-screen-xl">
           <div class="md:flex md:justify-between py-24">
             <div class="mb-6 md:mb-0 md:w-1/2 px-5">
-              <h2 class="title-font text-4xl md:text-7xl font-medium text-white  mb-3">
+              <h2
+                class="title-font text-4xl md:text-7xl font-medium text-white  mb-3"
+                data-aos="fade-up"
+              >
                 Want to start a project?
               </h2>
-              <h2 class="title-font py-10 text-4xl font-medium text-white mt-6 mb-3 hover:text-violet-500">
+              <h2
+                class="title-font py-10 text-4xl font-medium text-white mt-6 mb-3 hover:text-violet-500"
+                data-aos="fade-up"
+              >
                 Let's talk
                 <button class="border border-2 text-white ml-5 border-white font-bold p-3 rounded-full border hover:border-0  hover:bg-violet-500 font-bold  rounded-full">
                   <svg
@@ -42,64 +48,84 @@ const Footer = () => {
             <div class=" md:w-1/2 md:mt-4">
               <div class="">
                 <a href="#" class="flex">
-                  <img src={logo} class=" h-12 w-60  " alt="FlowBite Logo" />
+                  <img
+                    src={logo}
+                    class=" h-12 w-60  "
+                    data-aos="fade-up"
+                    alt="FlowBite Logo"
+                  />
                 </a>
-                <h2 class="title-font text-base md:text-lg font-medium text-white mt-6 mb-3">
+                <h2
+                  class="title-font text-base md:text-lg font-medium text-white mt-6 mb-3"
+                  data-aos="fade-up"
+                >
                   Duis aute irure dolor in reprehenderit in met voluptate velit
                   esse cillum dolore eu fugiat dolore eu fugiat nulla pariatur
                   ut enim ad minim veniam, quis nostrud exercitation ullamco
                   laboris nisi ut aliqui.
                 </h2>
               </div>
-              <div class="animate-fade-out w-full border-t my-10  border-gray-700"></div>
+              <div
+                class="animate-fade-out w-full border-t my-10  border-gray-700"
+                data-aos="fade-up"
+              ></div>
               <div class="grid grid-cols-1  sm:gap-6 md:grid-cols-3">
                 <div>
-                  <h2 class="my-6 font-semibold text-white text-xl  dark:text-white">
+                  <h2
+                    class="my-6 font-semibold text-white text-xl  dark:text-white"
+                    data-aos="fade-up"
+                  >
                     Pages
                   </h2>
                   <ul class="text-white  dark:text-gray-400 text-lg">
-                    <li class="mb-4 hover:text-violet-500">
+                    <li class="mb-4 hover:text-violet-500" data-aos="fade-up">
                       <a href="#">Home</a>
                     </li>
-                    <li class="mb-4 hover:text-violet-500">
+                    <li class="mb-4 hover:text-violet-500" data-aos="fade-up">
                       <a href="#services">Services</a>
                     </li>
-                    <li class="mb-4 hover:text-violet-500">
+                    <li class="mb-4 hover:text-violet-500" data-aos="fade-up">
                       <a href="#about">About</a>
                     </li>
-                    <li class="mb-4 hover:text-violet-500">
+                    <li class="mb-4 hover:text-violet-500" data-aos="fade-up">
                       <a href="">Contact</a>
                     </li>
                   </ul>
                 </div>
                 <div>
-                  <h2 class="my-6 font-semibold text-white text-xl  dark:text-white">
+                  <h2
+                    class="my-6 font-semibold text-white text-xl  dark:text-white"
+                    data-aos="fade-up"
+                  >
                     Pages
                   </h2>
                   <ul class="text-white dark:text-gray-400 text-lg">
-                    <li class="mb-4 hover:text-violet-500">
+                    <li class="mb-4 hover:text-violet-500" data-aos="fade-up">
                       <a href="#portfolio">Portfolio</a>
                     </li>
-                    <li class="mb-4 hover:text-violet-500">
+                    <li class="mb-4 hover:text-violet-500" data-aos="fade-up">
                       <a href="#process">Process</a>
                     </li>
-                    <li class="mb-4 hover:text-violet-500">
+                    <li class="mb-4 hover:text-violet-500" data-aos="fade-up">
                       <a href="#testmonials">Testmonials</a>
                     </li>
-                    <li class="mb-4 hover:text-violet-500">
+                    <li class="mb-4 hover:text-violet-500" data-aos="fade-up">
                       <a href="#blog">Blog</a>
                     </li>
                   </ul>
                 </div>
                 <div>
-                  <h2 class="my-6 text-xl font-semibold text-white uppercase dark:text-white">
+                  <h2
+                    class="my-6 text-xl font-semibold text-white uppercase dark:text-white"
+                    data-aos="fade-up"
+                  >
                     Legal
                   </h2>
                   <ul class="text-white dark:text-gray-400 text-lg">
-                    <li class="mb-4 hover:text-violet-500">
+                    <li class="mb-4 hover:text-violet-500" data-aos="fade-up">
                       <a href="#">Privacy Policy</a>
                     </li>
-                    <li class="mb-4 hover:text-violet-500">
+                    <li class="mb-4 hover:text-violet-500" data-aos="fade-up">
                       <a href="#">Terms &amp; Conditions</a>
                     </li>
                   </ul>

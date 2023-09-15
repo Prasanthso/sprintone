@@ -18,13 +18,13 @@ const Hero = () => {
           className="animate-fade-out absolute top-0 -left-3 lg:w-40 lg:h-40 xl:w-52 xl:h-48 lg:block hidden"
         />
         <div class="grid  xl:px-8  xl:gap-0  lg:grid-cols-12 transition duration-300 ease-in-out">
-          <div class="animate-slide-in-up mr-auto xl:pt-36 lg:pt-36 pt-12 md:ml-10 lg:ml-2 xl:ml-20  lg:col-span-10 xl:col-span-8 ">
+          <div
+            class=" mr-auto xl:pt-36 lg:pt-36 pt-12 md:ml-10 lg:ml-2 xl:ml-20  lg:col-span-10 xl:col-span-8 "
+            data-aos="fade-up"
+          >
             <div class="flex items-center lg:mb-2">
               <div class="relative lg:w-24 w-8 border-t border mb-4 mr-4 border-white"></div>
-              <h4
-                class="space-grotesk mb-4 text-lg text-white font-extrabold tracking-tight leading-none m dark:text-white tracking-wide
-"
-              >
+              <h4 class="space-grotesk mb-4 text-lg text-white font-extrabold tracking-tight leading-none m dark:text-white tracking-wide">
                 WE ARE WEBSTUDIO
               </h4>
             </div>

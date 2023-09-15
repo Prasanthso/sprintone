@@ -57,7 +57,7 @@ const Testimonials = () => {
               What our client say
             </h1>
           </div>
-          <div class="animate-fade-out grid mb-8 lg:mb-12 lg:grid-cols-1">
+          <div class="grid mb-8 lg:mb-12 lg:grid-cols-1" data-aos="zoom-in">
             <figure class="flex flex-col  p-8  bg-black border-b border-gray-200 md:p-12 lg:border-r dark:bg-gray-800 dark:border-gray-700">
               <blockquote class="mb-8 text-3xl md:text-5xl md:ml-4 font-bold dark:text-gray-400">
                 <p class="my-4 md:pr-40 text-white md:leading-snug leading-10 text-center">

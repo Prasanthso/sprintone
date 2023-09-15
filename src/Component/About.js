@@ -22,7 +22,10 @@ function About() {
                 ABOUT US
               </h4>
             </div>
-            <h1 class="animate-fade-out mb-4 text-3xl lg:text-7xl text-gray-800 font-extrabold tracking-tight  dark:text-white tracking-wide 	">
+            <h1
+              class="mb-4 text-3xl lg:text-7xl text-gray-800 font-extrabold tracking-tight  dark:text-white tracking-wide"
+              data-aos="fade-up"
+            >
               Our agency started back in 2002
             </h1>
             <img
@@ -31,7 +34,10 @@ function About() {
               alt="IntroImg"
             />
           </div>
-          <div class="animate-slide-in-up mx-5 lg:col-span-6 xl:col-span-5 lg:ml-10 lg:mr-3 xl:mx-5">
+          <div
+            class="mx-5 lg:col-span-6 xl:col-span-5 lg:ml-10 lg:mr-3 xl:mx-5"
+            data-aos="fade-up"
+          >
             <p class="my-8 font-light text-gray-800 lg:mb-6 md:text-lg lg:text-lg xl:text-xl dark:text-gray-400  xl:leading-6">
               Lorem ipsum dolor sit amet consectetur reprehe adipiscing elit,
               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
@@ -73,7 +79,7 @@ function About() {
                   </div>
                 </div>
                 <img
-                  class="absolute md:w-5/6 md:h-4/6 w-5/6 h-3/6 md:ml-8 z-20  animate-fade-out   lg:hidden block"
+                  class="absolute md:w-5/6 md:h-3/6 w-5/6 h-3/6 md:ml-8 z-20  animate-fade-out   lg:hidden block"
                   src={aboutimg}
                   alt="IntroImg"
                 />

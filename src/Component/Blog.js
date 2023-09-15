@@ -24,13 +24,13 @@ const Blog = () => {
                 Articles & resources
               </h1>
             </div>
-            <div class="md:mr-8 md:mb-0 mb-6 mx-auto flex-shrink-0 flex flex-col">
+            <div class="animate-fade-out md:mr-8 md:mb-0 mb-6 mx-auto flex-shrink-0 flex flex-col">
               <button class=" px-8 hover:bg-violet hover:text-black text-black font-semibold py-4 rounded-full border-black border">
                 Browse all articles
               </button>
             </div>
           </div>
-          <div class="flex flex-wrap mx-auto -mx-4 -mb-10">
+          <div class="flex flex-wrap mx-auto -mx-4 -mb-10" data-aos="fade-up">
             <div class="sm:w-1/2 mb-10 md:px-6">
               <img
                 alt="ecommerce"

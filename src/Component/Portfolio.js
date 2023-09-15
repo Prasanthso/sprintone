@@ -32,7 +32,7 @@ const Portfolio = () => {
           alt="Top Left Image"
           className="animate-fade-out absolute h-32 left-0 bottom-0 lg:hidden block"
         />
-        <div class="flex items-center mx-5  mb-5 pt-72 xl:pt-96">
+        <div class="flex items-center mx-5  mb-5 pt-80 xl:pt-96">
           <div class="animate-fade-out lg:w-24 w-12 border-t mb-2 mr-4 border-white"></div>
           <h4 class="max-w-2xl mb-2 text-xl text-white font-extrabold tracking-tight leading-none m dark:text-white">
             PORTFOLIO
@@ -53,7 +53,10 @@ const Portfolio = () => {
             </button>
           </div>
         </div>
-        <div class="animate-slide-in-up container mx-auto flex px-5 lg:py-16  md:py-24 lg:flex-row flex-col items-center ">
+        <div
+          class="container mx-auto flex px-5 lg:py-16  md:py-24 lg:flex-row flex-col items-center"
+          data-aos="fade-up"
+        >
           <div class="lg:max-w-lg lg:w-full md:w-full w-5/6 mb-10 md:mb-0">
             <img
               class="object-cover object-center hover:scale-110 rounded"
@@ -110,7 +113,10 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div class="animate-slide-in-up container mx-auto flex px-5 py-10 md:py-24 lg:py-16 lg:flex-row flex-col items-center">
+        <div
+          class="container mx-auto flex px-5 py-10 md:py-24 lg:py-16 lg:flex-row flex-col items-center"
+          data-aos="fade-up"
+        >
           <div class="lg:max-w-lg lg:w-full md:w-full lg:w-1/2 w-5/6 mb-10 md:mb-0">
             <img
               class="object-cover object-center hover:scale-110 rounded"
@@ -166,7 +172,10 @@ const Portfolio = () => {
             </a>
           </div>
         </div>
-        <div class="animate-slide-in-up container mx-auto flex px-5 py-10 md:py-24 xl:py-16 lg:flex-row flex-col items-center">
+        <div
+          class="container mx-auto flex px-5 py-10 md:py-24 xl:py-16 lg:flex-row flex-col items-center"
+          data-aos="fade-up"
+        >
           <div class="lg:max-w-lg lg:w-full md:w-full lg:w-1/2 w-5/6 mb-10 md:mb-0">
             <img
               class="object-cover object-center hover:scale-110 rounded"
